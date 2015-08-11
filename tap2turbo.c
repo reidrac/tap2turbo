@@ -189,7 +189,7 @@ main(int argc, char *argv[])
 		{
 			if (!quiet)
 				printf("failed!\n");
-			fprintf(stderr, "WARNING: Failed to set block %i\n", i);
+			fprintf(stderr, "WARNING: Failed to set block %i\n", atoi(argv[i]));
 			continue;
 		}
 
