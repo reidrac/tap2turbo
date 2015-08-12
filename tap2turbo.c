@@ -38,7 +38,7 @@ help(char *argv0)
 {
 	fprintf(stderr,"Convert a tape file into .tzx setting turbo blocks\n"
 			       "Copyright (C) 2015 Juan J. Martinez <jjm@usebox.net>\n\n"
-			       "Usage: %s [-h] [-q] [-o output] input [block [block [...]]]\n\n"
+			       "Usage: %s [-h] [-t params] [-q] [-o output] input [block [block [...]]]\n\n"
 				   "   input        input filename\n"
 				   "   block        block number to set to turbo mode (0 to n).\n\n"
 				   "   -h           this help screen\n"
